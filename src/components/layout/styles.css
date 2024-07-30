@@ -1,0 +1,19 @@
+.calculator {
+  border: 1px solid #cccccc;
+  border-radius: 20px;
+  box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.75);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 560px;
+}
+
+.keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  padding: 10px;
+  margin: auto;
+}
